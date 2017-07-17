@@ -3,8 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>Liste</title>
+		<link href="custom.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <p>Paragraphe.</p>
+
+    <div id="table">
+    </div>
+
+    <div id="description">
+    </div>
+
+    <br/>
+
+    <button id="add" onClick="displayForm();">Ajouter une Personne</button>
+
+    <div id=form>
+      <form action="/action_page.php">
+      Nom : <input type="text" name="prenom" value="">
+      <br>
+      Prénom : <input type="text" name="nom" value="">
+      <br>
+      Avez-vous Fait du Javscript avant? : <input type="text" name="js" value="">
+      <br>
+      Site Web Favori : <input type="text" name="fweb" value="">
+      <br>
+      Pourquoi? : <input type="text" name="wweb" value="">
+      <br>
+      Application Favorite : <input type="text" name="fapp" value="">
+      <br>
+      Pourquoi? : <input type="text" name="wapp" value="">
+      <br>
+      Qu'avez-vous fait avant l'Ifa? : <input type="text" name="bifa" value="">
+      <br>
+      Pourquoi avoir choisi l'Ifa? : <input type="text" name="wifa" value="">
+      <br>
+      Email : <input type="text" name="mail" value="">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    </div>
+
+  <footer>
+
+  <script type="text/javascript" src="script.js"></script>
+
+  </footer>
+
   </body>
 </html>
